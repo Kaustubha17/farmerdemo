@@ -8,6 +8,7 @@ body {
     font-family: Arial;
     padding: 10px;
    background-image: url("2.jpg");
+   animation: fade-in 1.5s ease, slide-in 1.2s ease;
     /* background: #f1f1f1; */
 /* background-image: url("fruits.jpg"); */
     /* background-image: url("paddy_fields.jpg"); */
@@ -21,7 +22,14 @@ body {
   height: 100vh;
     /* background-color: rgb(228, 215, 213); */
 }
-
+@keyframes slide-in {
+    0% {
+     top: -300px;
+   }
+   100% {
+     top: 0;
+   }
+ }
 .header {
     padding: 10px;
     text-align: center;
@@ -60,32 +68,52 @@ body {
     text-decoration: none;
     display: inline-block;
     opacity: 1;
+    
     /* border: 1px solid blue; */}
 
    
 
 .topnav img:hover{
    
-    transition: 0.5s;
+    transition: 0.5s ease-out;
     transform: scale(1.1);
-    
+    color: #fff;
 }
 
 .links {
+    /* animation: slideIn .8s ease forwards .5s; */
     padding-right: 5%;
     padding-top: 3.5%;
 }
+@keyframes slideIn {
+    0% {
+      transform: translateX(500px) scale(.2);
+    }
+    100% {
+      transform: translateX(0px) scale(1);
+    }
+  }
+  @keyframes slideUp {
+    0% {
+      transform: translateY(300px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
 
  a:hover{
  transition: 0.4s;
     transform: scale(1.1);
     background-image: linear-gradient(to right, #f5ce62, #e85a19);
     box-shadow: 0 4px 15px 0 rgba(192, 49, 1, 0.75);
-    color: rgb(255, 255, 255);
+  
    
    
 }
-
+a::before{
+    
+}
 
 .row:after {
     content: "";
@@ -106,7 +134,7 @@ body {
     margin-top: 20px;
     overflow: hidden;
     border-radius: 10px;
-
+    /* animation: slideUp .8s ease forwards .5s; */
 
   
         /* width: 30rem; */
