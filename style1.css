@@ -1,0 +1,52 @@
+/* Child selector */
+/* div>p 
+{
+    background-color: yellowgreen;
+} */
+
+/* ------------------------------- */
+
+/* div p   ------>descendent selector
+{
+    background-color: yellowgreen;
+} */
+
+/* ----------------------------- */
+
+
+/*Adjacent selector*/
+/* div+p 
+{
+    background-color: yellowgreen;
+} */
+
+/* ------------------------------ */
+
+/* General siblings selector */
+/* div~p 
+{
+    background-color: yellowgreen;
+} */
+
+/* div #p2{
+    background-color: yellowgreen;
+} */
+
+/* div .para{
+    background-color: tomato;
+} */
+
+
+div *{
+background-color: violet;
+}
+
+a:link{
+    color: red;
+}
+a:visited{
+    color:yellowgreen;
+}
+a:hover{
+    color:whitesmoke;
+}

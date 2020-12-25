@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Muli', 'Baloo Da 2', 'Montserrat', sans-serif
+    /* background-color: wheat; */
+}
+
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: #f1f1f1;
+    /* background-color: rgb(228, 215, 213); */
+}
+
+.header {
+    padding: 10px;
+    text-align: center;
+    background: white;
+    width: 80%;
+    margin: auto;
+    /*used to horizontally center the element within its cotainer*/
+    /*The element will then take up the specified width and the remaining space will be split equally between th left and right margins*/
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: rgb(197, 252, 0);
+    width: 80%;
+    margin: auto;
+}
+
+.topnav ul {
+    list-style-type: none;
+}
+
+.topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    height: 70px;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.main {
+    width: 80%;
+    margin: auto;
+}
+
+.card {
+    background-color: white;
+    /* padding: 20px; */
+    padding: 1px;
+    /* padding-right: 0px; */
+    margin-top: 20px;
+    overflow: hidden;
+}
+.cc{
+    float:left;
+    padding:5px;
+    }
+    img{
+        width:auto;
+        max-width:165px;
+        height:auto;
+    }
+.footer{
+    padding:22px;
+    text-align:center;
+    background:#ddd;
+    margin-top: 20px;
+    width:80%;
+    margin:auto;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password], input[type=email], input[type=tel] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    }
+    /* Add padding to containers */
+    .container {
+    padding: 16px;
+    width: 350px;
+    margin: auto;
+    }
+    /* Set a style for all buttons */
+    button {
+    background-color: darkblue;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    }
+    /* Add a hover effect for buttons */
+    button:hover {
+    opacity: 0.8;
+    }
+
+
+    .insidecontainer{
+      word-spacing: 3px;
+        /* letter-spacing: 1px; */
+        margin-top: 50px;
+        overflow: hidden;
+        width: 100%;
+        margin: auto;
+        
+        background:#ddd;
+        float:left;
+    padding:5px;
+    }
+    /* button {
+        background-color: rgb(231, 14, 6);
+        color: white;
+        padding: 1px 1px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 30%;
+        }
+        /* Add a hover effect for buttons */
+        /* button:hover {
+        opacity: 0.8;
+        }
+     */ 
+     /* Extra style for the cancel button (red) */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  /* The "Forgot password" text */
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
