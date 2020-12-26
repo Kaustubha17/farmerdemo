@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LTI - Larsen & Toubro Infotech</title>
+    <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <div class="header">
+      <h1>Welcome to LTI</h1>    
+    </div>
+      
+      <div class="topnav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><img src="../images/lti.jpg" style="float: right;padding-right: 20px ;height:50px;"/></li>
+        </ul>
+      </div>
+      
+      <div class="row">
+        <div class="main">
+          <div class="card">
+			<h2 style="text-align: center;">Register to explore amazing career opportunities</h2>
+            <!--<form onsubmit="validate();">-->
+			<form>
+                <div class="container">
+                  <label for="name"><b>Full Name</b></label>
+                  <input type="text" placeholder="Enter Full Name" name="name" required>
+                  
+                  <label for="mobile"><b>Contact No.</b></label>
+                  <input type="tel" placeholder="Enter Contact Number" onkeypress="validate1();" id="mobile" required>
+				  <span id="mbError" style="color:red"></span>
+                  
+                  <label for="email"><b>Email Address</b></label>
+                  <input type="email" placeholder="Enter Email Address" name="email" required>
+                   
+                  <label for="address"><b>Address Details</b></label>
+                  <input type="text" placeholder="Address Line 1" name="address" style="height:80px; width:320px;" required  >
+                  <input type="text" placeholder="Address Line 2" name="address" style="height:80px; width:320px;" required >
+                   
+                  <label for="city"><b>City</b></label>
+                  <input type="text" placeholder="Enter City" name="city" required>
+
+                  <label for="state"><b>State</b></label>
+                  <input type="text" placeholder="Enter state" name="state" required>
+
+                  <label for="pin"><b>Pin Code</b></label>
+                  <input type="tel" placeholder="Enter Pin Code" name="pin" required>
+                   
+                  <div><h3> Land Details:</h3></div>
+                   
+                  <label for="area"><b>Area</b></label>
+                  <input type="text" placeholder="area" name="area"  required >
+
+                  <label for="pin1"><b>Pin Code</b></label>
+                  <input type="tel" placeholder="Enter Pin Code" name="pin1" required>
+                  
+                  <label for="address1"><b>Address</b></label>
+                  <input type="text" placeholder="Address Line 1" name="address1"  required >
+
+
+                 <div><h3> Bank Details:</h3></div>
+                 <label for="acc"><b>Account no.</b></label>
+                 <input type="tel" placeholder="Enter Account no." name="acc" required>
+
+                 <label for="ifsc"><b>IFSC Code</b></label>
+                  <input type="tel" placeholder="Enter IFSC Code" name="ifsc" required>
+                  
+                  <div><h3> Document upload:</h3></div>
+
+                  <label for="adhaar"><b>Adhaar</b></label>
+                  <input type="file"  name="adhaar" required>
+
+                  <label for="pan"><b>Pan</b></label>
+                  <input type="file" name="pan" required>
+
+                  <label for="trade"><b>Trader License</b></label>
+                  <input type="file" name="trade" required>
+                
+                  
+                
+                  <label for="psw"><b>Password</b></label>
+                  <input type="password" placeholder="Enter Password" name="psw" required>
+
+                  <label for="psw"><b>Confirm Password</b></label>
+                  <input type="password" placeholder="Confirm Password" name="psw" required>
+              
+                
+                  
+                  <button type="submit">Register</button>
+                  <span></span><button type="reset">reset</button></span>
+                
+                </div>
+              </form>
+          </div>
+        </div>
+     </div>
+      
+      
+      <div class="footer">
+        <p>© 2020 Larsen & Toubro Infotech Limited</p>
+      </div>          
+</body>
+</html>
