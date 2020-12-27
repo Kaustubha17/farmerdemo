@@ -11,7 +11,7 @@ html {
 body {
     font-family: Arial;
     padding: 10px;
-   background-image: url("2.jpg");
+   background-image: url("./social media/091a0e2f-b93d-481b-9a60-db520c87ec33.jpg");
    animation: fade-in 1.5s ease, slide-in 1.2s ease;
     /* background: #f1f1f1; */
 /* background-image: url("fruits.jpg"); */
@@ -26,6 +26,7 @@ body {
   height: 100vh;
     /* background-color: rgb(228, 215, 213); */
 }
+
 
 @keyframes slide-in {
     0% {
