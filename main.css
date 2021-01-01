@@ -216,11 +216,11 @@ text-shadow: black;
         height:auto;
     }
 .footer{
-    padding:22px;
+    /* padding:22px; */
     text-align:center;
-    background:#ddd;
+    /* background:#ddd; */
     margin-top: 20px;
-    width:80%;
+    width:30%;
     margin:auto;
 }
 
